@@ -9,6 +9,7 @@ namespace BLL
     {
         public CSBll(Action<BaseBll<CS>> action) : base(action)
         {
+
         }
     }
 }
