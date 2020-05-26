@@ -80,7 +80,7 @@ namespace TestWebCore.Controllers
 
         [HttpGet]
         [AllowAnonymous]
-        public object Hq()
+        public IActionResult Hq()
         {
 
             dynamic d = null;
@@ -90,6 +90,7 @@ namespace TestWebCore.Controllers
             });
             //IList<Model.CS> list = bll1.GetPageList(1, 5);
             //var dt= bll1.SqlQueryDynamic("select * from CS ", null);
+            
             return d;
         }
 
