@@ -1,0 +1,16 @@
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\ToKen.deps.json
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\ToKen.dll
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\Model.dll
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\Model.pdb
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\obj\Debug\netcoreapp3.1\ToKen.csprojAssemblyReference.cache
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\obj\Debug\netcoreapp3.1\ToKen.AssemblyInfoInputs.cache
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\obj\Debug\netcoreapp3.1\ToKen.AssemblyInfo.cs
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\obj\Debug\netcoreapp3.1\ToKen.csproj.CopyComplete
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\ToKen.pdb
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\obj\Debug\netcoreapp3.1\ToKen.csproj.CoreCompileInputs.cache
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\obj\Debug\netcoreapp3.1\ToKen.dll
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\obj\Debug\netcoreapp3.1\ToKen.pdb
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\BLL.dll
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\DAL.dll
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\BLL.pdb
+E:\Mycode\C#\.NET Core\Test\Web\ToKen\bin\Debug\netcoreapp3.1\DAL.pdb

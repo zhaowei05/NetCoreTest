@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TestWebCore</name>
+    </assembly>
+    <members>
+        <member name="M:TestWebCore.App_Code.GenerateJwt.GenerateEncodedTokenAsync(System.String,Model.LoginUserModel)">
+            <summary>
+            生成token
+            </summary>
+            <param name="sub"></param>
+            <param name="customClaims">携带的用户信息</param>
+            <returns></returns>
+        </member>
+        <member name="M:TestWebCore.App_Code.JwtUser.GetRequestUser(Microsoft.AspNetCore.Http.HttpRequest)">
+            <summary>
+            解析jwt 获取当前用户信息
+            </summary>
+            <param name="request"></param>
+            <returns>用户信息</returns>
+        </member>
+        <member name="T:TestWebCore.App_Code.TokenAuth">
+            <summary>
+            Token验证授权中间件
+            </summary>
+        </member>
+        <member name="F:TestWebCore.App_Code.TokenAuth._next">
+            <summary>
+            http委托
+            </summary>
+        </member>
+        <member name="M:TestWebCore.App_Code.TokenAuth.#ctor(Microsoft.AspNetCore.Http.RequestDelegate)">
+            <summary>
+            构造函数
+            </summary>
+            <param name="next"></param>
+        </member>
+        <member name="M:TestWebCore.App_Code.TokenAuth.Invoke(Microsoft.AspNetCore.Http.HttpContext)">
+            <summary>
+            验证授权
+            </summary>
+            <param name="httpContext"></param>
+            <returns></returns>
+        </member>
+        <member name="M:TestWebCore.Controllers.WeatherForecastController.Get">
+            <summary>
+            测试
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

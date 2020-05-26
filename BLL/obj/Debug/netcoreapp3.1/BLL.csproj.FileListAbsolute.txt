@@ -1,0 +1,14 @@
+E:\Mycode\C#\.NET Core\Test\Web\BLL\bin\Debug\netcoreapp3.1\BLL.deps.json
+E:\Mycode\C#\.NET Core\Test\Web\BLL\bin\Debug\netcoreapp3.1\BLL.dll
+E:\Mycode\C#\.NET Core\Test\Web\BLL\bin\Debug\netcoreapp3.1\BLL.pdb
+E:\Mycode\C#\.NET Core\Test\Web\BLL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\Mycode\C#\.NET Core\Test\Web\BLL\bin\Debug\netcoreapp3.1\Model.dll
+E:\Mycode\C#\.NET Core\Test\Web\BLL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\Mycode\C#\.NET Core\Test\Web\BLL\bin\Debug\netcoreapp3.1\Model.pdb
+E:\Mycode\C#\.NET Core\Test\Web\BLL\obj\Debug\netcoreapp3.1\BLL.csprojAssemblyReference.cache
+E:\Mycode\C#\.NET Core\Test\Web\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CoreCompileInputs.cache
+E:\Mycode\C#\.NET Core\Test\Web\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfoInputs.cache
+E:\Mycode\C#\.NET Core\Test\Web\BLL\obj\Debug\netcoreapp3.1\BLL.AssemblyInfo.cs
+E:\Mycode\C#\.NET Core\Test\Web\BLL\obj\Debug\netcoreapp3.1\BLL.csproj.CopyComplete
+E:\Mycode\C#\.NET Core\Test\Web\BLL\obj\Debug\netcoreapp3.1\BLL.dll
+E:\Mycode\C#\.NET Core\Test\Web\BLL\obj\Debug\netcoreapp3.1\BLL.pdb

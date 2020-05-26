@@ -1,0 +1,9 @@
+E:\Mycode\C#\.NET Core\Test\Web\Model\bin\Debug\netcoreapp3.1\Model.deps.json
+E:\Mycode\C#\.NET Core\Test\Web\Model\bin\Debug\netcoreapp3.1\Model.dll
+E:\Mycode\C#\.NET Core\Test\Web\Model\bin\Debug\netcoreapp3.1\Model.pdb
+E:\Mycode\C#\.NET Core\Test\Web\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfoInputs.cache
+E:\Mycode\C#\.NET Core\Test\Web\Model\obj\Debug\netcoreapp3.1\Model.AssemblyInfo.cs
+E:\Mycode\C#\.NET Core\Test\Web\Model\obj\Debug\netcoreapp3.1\Model.dll
+E:\Mycode\C#\.NET Core\Test\Web\Model\obj\Debug\netcoreapp3.1\Model.pdb
+E:\Mycode\C#\.NET Core\Test\Web\Model\obj\Debug\netcoreapp3.1\Model.csproj.CoreCompileInputs.cache
+E:\Mycode\C#\.NET Core\Test\Web\Model\obj\Debug\netcoreapp3.1\Model.csprojAssemblyReference.cache

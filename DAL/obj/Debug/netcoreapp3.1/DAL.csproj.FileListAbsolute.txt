@@ -1,0 +1,12 @@
+E:\Mycode\C#\.NET Core\Test\Web\DAL\bin\Debug\netcoreapp3.1\DAL.deps.json
+E:\Mycode\C#\.NET Core\Test\Web\DAL\bin\Debug\netcoreapp3.1\DAL.dll
+E:\Mycode\C#\.NET Core\Test\Web\DAL\bin\Debug\netcoreapp3.1\DAL.pdb
+E:\Mycode\C#\.NET Core\Test\Web\DAL\bin\Debug\netcoreapp3.1\Model.dll
+E:\Mycode\C#\.NET Core\Test\Web\DAL\bin\Debug\netcoreapp3.1\Model.pdb
+E:\Mycode\C#\.NET Core\Test\Web\DAL\obj\Debug\netcoreapp3.1\DAL.csprojAssemblyReference.cache
+E:\Mycode\C#\.NET Core\Test\Web\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfoInputs.cache
+E:\Mycode\C#\.NET Core\Test\Web\DAL\obj\Debug\netcoreapp3.1\DAL.AssemblyInfo.cs
+E:\Mycode\C#\.NET Core\Test\Web\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CopyComplete
+E:\Mycode\C#\.NET Core\Test\Web\DAL\obj\Debug\netcoreapp3.1\DAL.dll
+E:\Mycode\C#\.NET Core\Test\Web\DAL\obj\Debug\netcoreapp3.1\DAL.pdb
+E:\Mycode\C#\.NET Core\Test\Web\DAL\obj\Debug\netcoreapp3.1\DAL.csproj.CoreCompileInputs.cache
