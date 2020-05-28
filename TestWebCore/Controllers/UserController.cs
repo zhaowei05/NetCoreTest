@@ -1,18 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using BLL;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Hosting.Server;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Options;
-using Microsoft.Extensions.Configuration;
 using Microsoft.IdentityModel.Tokens;
 using Model;
 using Newtonsoft.Json;
-using TestWebCore.App_Code;
-using BLL;
+using ToKen;
 
 namespace TestWebCore.Controllers
 {
@@ -24,18 +18,19 @@ namespace TestWebCore.Controllers
         [AllowAnonymous]
         public object Login(LoginUserModel userModel)
         {
-            if (userModel.userid == "admin" && userModel.userpwd =="123")
+            if (userModel.userid == "admin" && userModel.userpwd == "123")
             {
-                Model.TokenModel tokenModel = new TokenModel() { 
-                     Uid= userModel.userid,
-                     Uname=userModel.realname,
-                     UNickname="",
-                     Phone="001",
-                     Sub= "Admin",
-                     Icon=""
+                var tokenModel = new TokenModel
+                {
+                    Uid = userModel.userid,
+                    Uname = userModel.realname,
+                    UNickname = "",
+                    Phone = "001",
+                    Sub = "Admin",
+                    Icon = ""
                 };
-                var access_token= ToKen.RayPIToken.IssueJWT(tokenModel, new TimeSpan(0,30,00), new TimeSpan(0,30,00));
-               
+                var access_token = RayPIToken.IssueJWT(tokenModel, new TimeSpan(0, 30, 00), new TimeSpan(0, 30, 00));
+
                 //JwtConfig jwtConfig = new JwtConfig();
 
                 //GenerateJwt _generateJwt = new GenerateJwt(jwtConfig);
@@ -56,11 +51,12 @@ namespace TestWebCore.Controllers
 
                 return access_token;
             }
+
             return null;
         }
 
         [HttpGet]
-        [Authorize(Policy="Admin")]
+        [Authorize(Policy = "Admin")]
         public object Yz(string access_token)
         {
             var jwtArr = access_token.Split('.');
@@ -82,15 +78,15 @@ namespace TestWebCore.Controllers
         [AllowAnonymous]
         public IActionResult Hq()
         {
-
             dynamic d = null;
-            IBaseBll<Model.CS> bll1 = new BLL.CSBll(x => {
+            IBaseBll<CS> bll1 = new CSBll(x =>
+            {
                 x.GetMySql();
-                d = x.GetPageList(1, 10,x=>true,out int count);
+                d = x.GetPageList(1, 10, x => true, out var count);
             });
             //IList<Model.CS> list = bll1.GetPageList(1, 5);
             //var dt= bll1.SqlQueryDynamic("select * from CS ", null);
-            
+
             return d;
         }
 
@@ -98,13 +94,12 @@ namespace TestWebCore.Controllers
         [AllowAnonymous]
         public object Hq2()
         {
-            IList<Model.M_OPT> list = null;
-            IBaseBll<Model.M_OPT> bll = new BLL.UserBll(x =>
-            {
-                x.GetSqlserver();
-                list = x.GetPageList(1, 5,x=>true,out int count);
-            }
-
+            IList<M_OPT> list = null;
+            IBaseBll<M_OPT> bll = new UserBll(x =>
+                {
+                    x.GetSqlserver();
+                    list = x.GetPageList(1, 5, x => true, out var count);
+                }
             );
             return list;
         }

@@ -34,6 +34,7 @@ namespace TestWebCore
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            
             //×¢²áswagger ApiÎÄµµ
             services.AddSwaggerGen(x=> {
                 x.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo()

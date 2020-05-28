@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Http;
+﻿using BLL;
 using Microsoft.AspNetCore.Mvc;
+using Model;
 
 namespace TestWebCore.Controllers
 {
@@ -11,18 +8,19 @@ namespace TestWebCore.Controllers
     [ApiController]
     public class CSController : ControllerBase
     {
-        private BLL.IBaseBll<Model.CS> bll = new BLL.CSBll(x => x.GetMySql());
+        private readonly IBaseBll<CS> bll = new CSBll(x => x.GetMySql());
+
         [HttpPost]
         public IActionResult GetPage(int index, int page)
         {
-            IList<Model.CS> list = bll.GetPageList(index,page,x=>true,out int count);
+            var list = bll.GetPageList(index, page, x => true, out var count);
             return Ok(list);
         }
 
         [HttpPost]
         public IActionResult Get(string ID)
         {
-            Model.CS cs = bll.Get(ID);
+            var cs = bll.Get(ID);
             return Ok(cs);
         }
 
@@ -30,19 +28,19 @@ namespace TestWebCore.Controllers
         public IActionResult Delete(string ID)
         {
             ID = "";
-            var msg= bll.Dels(new dynamic[]{ID});
+            var msg = bll.Dels(new dynamic[] {ID});
             return Ok(msg);
         }
 
         [HttpPut]
-        public IActionResult Update(Model.CS  cS)
+        public IActionResult Update(CS cS)
         {
             var msg = bll.Update(cS);
             return Ok(msg);
         }
 
         [HttpPut]
-        public IActionResult Add(Model.CS cS)
+        public IActionResult Add(CS cS)
         {
             var msg = bll.Add(cS);
             return Ok(msg);
